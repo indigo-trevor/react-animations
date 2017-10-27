@@ -24,7 +24,7 @@ export default class App extends Component {
 			})
 			.then(json => {
 				this.setState({
-					projects: json.slice(0, 7)
+					projects: json.slice(0, 3)
 				});
 			});
 	}
